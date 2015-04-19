@@ -23,20 +23,22 @@ var grid = new hashgrid({ numberOfGrids: 2 });$("#grid").css('display','block');
 - To modify horizontal ruler
   - Edit the height rule of div.horiz selector
   
+
+### Grid modifications  
 To change grid color, modify the following selector's border-color
 
 `
-	#grid.grid-1 div.vert{
+#grid.grid-1 div.vert{
 
-    /* Vertical grid line colour for grid 1 */
-    border-color: darkturquoise;
+/* Vertical grid line colour for grid 1 */
+border-color: darkturquoise;
 `
 
 To change horizontal line color, modify the following:
 `
-	#grid div.horiz{
+#grid div.horiz{
 
-    border-bottom-color: #ed2f71;	
+border-bottom-color: #ed2f71;	
 `
   
 For any queries, please raise an issue.
